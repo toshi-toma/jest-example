@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/toshi-toma/jest-example/issues"
   },
-  "homepage": "https://github.com/toshi-toma/jest-example#readme"
+  "homepage": "https://github.com/toshi-toma/jest-example#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.9.0"
+  }
 }
