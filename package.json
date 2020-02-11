@@ -19,6 +19,8 @@
   "homepage": "https://github.com/toshi-toma/jest-example#readme",
   "devDependencies": {},
   "dependencies": {
+    "@types/jest": "^25.1.2",
+    "axios": "^0.19.2",
     "jest": "^25.1.0"
   }
 }
